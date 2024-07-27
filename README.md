@@ -24,3 +24,7 @@ Types of mismatch:
   - file was changed
 * Warnings
   - file was renamed or replaced with copy with different name
+
+## Implementation features
+- Control-files can not be stored in the directory during `-set` and `-check` commands
+- We deal with `n` files in directory and `m` files in control list, so comparison algorithm has complexity of `O(2*n*m + n + m)` and should be reworked
