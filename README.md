@@ -1,7 +1,7 @@
-#  Command line directory integrity control tool FIMO (File Integrity MOnitoring)
+#  Command line directory integrity monitoring tool FIMO (File Integrity MOnitoring)
 
 ## What is FIMO?
-FIMO is simple directory integrity control tool written in C for educational purposes. It's compatible only with Linux systems due to usage of platform dependent C header files. Most of it error and info messages are defined in russian language.
+FIMO is simple directory integrity monitoring tool written in C for educational purposes. It's compatible only with Linux systems due to usage of platform dependent C header files. Most of it error and info messages are defined in russian language.
 
 FIMO can set contol-file of directory to further integrity check:
 
@@ -31,4 +31,7 @@ Types of mismatch:
 
 ## Installation
 1. Instal OpenSSL
-``
+```sudo apt install libssl-dev```
+2. Clone repository
+3. Build project
+4. ```make```
