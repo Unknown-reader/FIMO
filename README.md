@@ -12,7 +12,7 @@ By using existing control-file FIMO can check directory integrity:
 ```./fimo [-c check] 'path/to/dir' 'path/to/control-file```
 
 ## How it works?
-While filling in directory control-file FIMO recursively goes through all subdirectories and collects all filepaths. Programm calculates hash of every file using `openSSL` SHA256 hashing algorithm and writes it into control-file.
+While filling in directory control-file FIMO recursively goes through all subdirectories and collects all filepaths. Program calculates hash of every file using `openSSL` SHA256 hashing algorithm and writes it into control-file.
 Control-files are simple `.txt` files that should not be modified by user directly. FIMO performs control-file validation that can only track format mismatch.
 
 To check directory integrity FIMO creates temporary file with current contents of directory and compares it with filepaths and hashes storeg in passed control-file.
