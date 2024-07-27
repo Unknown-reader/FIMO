@@ -31,7 +31,9 @@ Types of mismatch:
 
 ## Installation
 1. Instal OpenSSL
+
 ```sudo apt install libssl-dev```
 2. Clone repository
 3. Build project
+   
 4. ```make```
