@@ -1,1 +1,1 @@
-#  реализующая функционал контроля целостности  содержимого каталога файлов FIMO (File Integrity MOnitoring)
+#  Command line directory integrity control tool FIMO (File Integrity MOnitoring)
