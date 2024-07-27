@@ -28,3 +28,7 @@ Types of mismatch:
 ## Implementation features
 - Control-files can not be stored in the directory during `-set` and `-check` commands
 - We deal with `n` files in directory and `m` files in control list, so comparison algorithm has complexity of `O(2*n*m + n + m)` and should be reworked
+
+## Installation
+1. Instal OpenSSL
+``
